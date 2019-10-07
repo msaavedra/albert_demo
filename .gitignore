@@ -1,0 +1,12 @@
+~/.pyc
+*.pyc
+~*.pyc
+*.key
+settings_local.py
+celery_config_local.py
+*.sublime-workspace
+*.DS_Store
+venv/*
+.idea/*
+*.sqlite3
+*~
