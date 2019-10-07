@@ -44,7 +44,7 @@ Testing Instructions
 
 5. Open a browser with the following URL which should return a Django
 Rest Framework page:<br />
-*[http://localhost:8000/cc_numbers/random]*
+(http://localhost:8000/cc_numbers/random)
 
 6. Follow the validation_link field to the other endpoint. It should
 load a DRF page too.
@@ -65,7 +65,7 @@ parameter is omitted, a random network is chosen.
 
 There is also a swagger endpoint available at:<br />
 
-*[http://localhost:8000/cc_numbers/swagger]*
+(http://localhost:8000/cc_numbers/swagger)
 
 This built-in API-browsing system contains very detailed usage information
 about this service.
