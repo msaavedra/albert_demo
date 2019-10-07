@@ -68,6 +68,7 @@ There is also a swagger endpoint available at:<br />
 (http://localhost:8000/cc_numbers/swagger)
 
 This built-in API-browsing system contains very detailed usage information
-about this service.
+about this service, including valid parameter values, outputted JSON format,
+etc.
 
 
