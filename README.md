@@ -55,13 +55,13 @@ API Usage
 
 There are two endpoints in this service:
 
-1. /cc_numbers/validation/{card_number} - a GET request to this service
+1. /cc_numbers/validation/{card_number} - a GET request to this endpoint
 returns the validity and collected data about the card number.
 
 2. /cc_numbers/random?network={network} - a GET request returns a random
 credit card number and a link to validate it. The network querystring
-parameter can be used to choose the network of the new number. If the
-parameter is omitted, a random network is chosen.
+parameter can be used to choose the network of the new number, for example
+visa or mastercard. If the parameter is omitted, a random network is chosen.
 
 There is also a swagger endpoint available at:<br />
 
